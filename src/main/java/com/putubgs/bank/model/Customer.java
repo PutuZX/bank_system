@@ -41,5 +41,7 @@ public class Customer {
         this.email = email;
     }
 
-    
+    public String toString(){
+        return String.format(" %s | %s | %s | %s ", customerId, name, email, phoneNum);
+    }
 }  
